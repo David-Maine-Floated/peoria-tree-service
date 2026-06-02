@@ -418,6 +418,7 @@ h3 { font-size: 20px; margin-bottom: 8px; }
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
   .content-grid { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr !important; }
+  .stats-grid { grid-template-columns: 1fr 1fr !important; }
   .contact-grid { grid-template-columns: 1fr; }
   .sidebar-card { position: static; }
   .section { padding: 48px 0; }
