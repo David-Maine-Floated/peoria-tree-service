@@ -6,7 +6,7 @@
   <title>Free Tree Service Estimate in Peoria, IL | Contact Us | (309) 555-0100</title>
   <meta name="description" content="Get a free tree service estimate in Peoria, IL. Call (309) 555-0100 or fill out our form. Fast response, no obligation. Tree removal, trimming & stump grinding.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.peoriatreeservice.com/contact.html">
+  <link rel="canonical" href="https://www.peoriatreeservicespros.com/contact.html">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -55,9 +55,11 @@
         <h2 style="margin-bottom:6px;">Request a Free Estimate</h2>
         <p style="color:var(--text-muted); margin-bottom:24px;">Fill out the form and we'll get back to you within 24 hours with a no-obligation estimate.</p>
 
-        <form id="estimateForm" name="estimate" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
-          <input type="hidden" name="form-name" value="estimate">
-          <input name="bot-field" style="display:none" aria-hidden="true">
+        <form id="estimateForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+          <input type="hidden" name="access_key" value="e454cd3d-b52a-44eb-b167-2cf4fe723877">
+          <input type="hidden" name="subject" value="New Estimate Request — Peoria Tree Service">
+          <input type="hidden" name="redirect" value="https://peoriatreeservicespros.com/contact.html?success=true">
+          <input type="checkbox" name="botcheck" style="display:none" aria-hidden="true">
           <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
             <div class="form-group">
               <label for="firstName">First Name *</label>
